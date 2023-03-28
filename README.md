@@ -8,8 +8,8 @@ Prototype: `int _printf(const char *format, ...)`
 ## Return Value
 > Upon successful return, _printf returns the number of characters printed (excluding the terminating null byte used to end output to strings). If an output error is encountered, the function returns -1.
 
-| Specifier | Output |
-|-----------|--------|
+| Conversion Specifier | Output |
+|----------------------|--------|
 | c |	Character |
 | d or i |	Signed decimal integer |
 | s |	String of characters |
@@ -34,3 +34,7 @@ Prototype: `int _printf(const char *format, ...)`
 |-----------|---------------|------------|
 | l	| Prints a long int or unsigned long int	| i, d, o, u, x and X |
 | h	| Prints a short int or unsigned short int	| i, d, o, u, x and X |
+
+# Authors
+- Fasil Solomon
+- Belove Olusola
