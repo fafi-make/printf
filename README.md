@@ -1,10 +1,13 @@
 # printf()
 > The printf project is a collaboration between Belove Olusola and Fasil Solomon, actual students of Software Engineering at ALX-Africa, where a function named "_printf" imitates the actual "printf" command located in the stdio.h library. It contains some of the basic features and functions found in the manual 3 of "printf".
 
-> _printf() is a function that performs formatted output conversion and print data. Its prototype is the following:
-`int _printf(const char *format, ...)`
+## Description
+> _printf() is a function that performs formatted output conversion and print data.
+Prototype: `int _printf(const char *format, ...)`
 
-> If the program runs successfully, the return value is the amount of chars printed.
+## Return Value
+> Upon successful return, _printf returns the number of characters printed (excluding the terminating null byte used to end output to strings). If an output error is encountered, the function returns -1.
+
 | Specifier | Output |
 |-----------|--------|
 | c |	Character |
