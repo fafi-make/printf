@@ -35,6 +35,23 @@ Prototype: `int _printf(const char *format, ...)`
 | l	| Prints a long int or unsigned long int	| i, d, o, u, x and X |
 | h	| Prints a short int or unsigned short int	| i, d, o, u, x and X |
 
+## About _printf Functions
+**int _printf(const char *format, ...)**
+> This function produces output according to a format.
+
+**void write_format(va_list *args_list, fmt_info_t *fmt_info)**
+> This function writes data formatted against some parameters.
+
+**int _putstr(char *str)**
+> This function writes the given string to the buffer.
+
+**int _putchar(char c)**
+> This function writes the character c to the buffer.
+
+**int write_to_buffer(char c, char action)**
+> This function writes a char to the buffer based on an action code.
+
+
 # Authors
 - Fasil Solomon
 - Belove Olusola
